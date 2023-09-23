@@ -1,0 +1,241 @@
+[
+    {
+        "A": {
+            "heading": "Computer systems",
+            "topics": {
+                "Software categories": [
+                    "11.3.1.1 justify the choice of applied software and choice criteria based on the goals",
+                    "11.3.1.2 classify application software"
+                ],
+                "Operating systems": [
+                    "11.3.1.3 describe the purpose and main functions of operating systems",
+                    "11.3.1.4 compare single-user and multi-user operating systems",
+                    "11.3.1.5 compare one-task and multitasking operating systems"
+                ],
+                "Von Neumann Architecture": [
+                    "11.3.2.1 describe the interaction of CPU with peripheral devices",
+                    "11.3.2.2 describe the purpose of CPU components, system bus and main memory"
+                ],
+                "Memory types": [
+                    "11.3.4.1 explain the differences between RAM and ROM memory",
+                    "11.3.4.2 explain the purpose of virtual memory",
+                    "11.3.4.3 explain the purpose of cache memory"
+                ],
+                "Boolean algebra": [
+                    "11.3.3.1 distinguish between laws of Boolean logic simplify logical expressions",
+                    "11.3.3.2 using the laws of Boolean logic",
+                    "11.3.3.3 build truth tables AND, OR, NOT, NAND, NOR, XOR"
+                ]
+            }
+        },
+        "B": {
+            "heading": "Programmning paradigms",
+            "topics": {
+                "Categories and classification of programming languages": [
+                    "11.5.1.1 distinguish between generations of programming languages",
+                    "11.5.1.2 classify programming languages into low and high-level",
+                    "11.5.1.5 advantages and disadvantages of high-level languages",
+                    "11.5.1.6 advantages and disadvantages of low-level languages",
+                    "11.5.1.3 analyze a simple program written in the language of assembler",
+                    "11.5.1.4 use trace tables to find and verify the correctness of an algorithm"
+                ],
+                "Translators": [
+                    "11.5.1.7 advantages and disadvantages of compilers",
+                    "11.5.1.8 advantages and disadvantages of interpreters"
+                ]
+            }
+        },
+        "C": {
+            "heading": "System lifecycle",
+            "topics": {
+                "System lifecycle stages": [
+                    "11.2.1.1 analyse the advantages and disadvantages of cyclical, waterfall and spiral models"
+                ],
+                "System lifecycle models": [
+                    "11.2.1.2 analyse the advantages and disadvantages of cyclical, waterfall and spiral models"
+                ],
+                "Data analysis": [
+                    "11.2.1.3 describe data collection methods",
+                    "11.2.1.4 compare different data analysis techniques",
+                    "11.2.1.5 compare alternative solutions to a problem in order to choose the most effective algorithm",
+                    "11.2.1.8 develop a system requirement based on collected information"
+                ],
+                "Data flow diagram": [
+                    "11.2.1.6 use data flow diagrams (DFD) to input, process, store and output data in computing systems"
+                ],
+                "Flowcharts of processes": [
+                    "11.2.1.7 use flow charts to input, process, store and output data in computing systems"
+                ]
+            }
+        }
+    },
+    {
+        "A": {
+            "heading": "Information systems",
+            "topics": {
+                "Database": [
+                    "11.4.1.1 describe relational databases and their purpose",
+                    "11.4.1.4 define data types when creating a database"
+                ],
+                "Normalization": [
+                    "11.4.1.2 use the terms attribute, object, index, record, table and tuple to describe databases",
+                    "11.4.1.3 explain the difference between primary composite and foreign key"
+                ],
+                "ERD": [
+                    "11.4.1.5 define the connections between tables in database",
+                    "11.4.1.6 create an entity-relationship (ER) model",
+                    "11.4.1.7 bring connections to the third normal form (3NF)"
+                ],
+                "SQL": [
+                    "11.4.2.1 explain the purpose of data dictionary",
+                    "11.4.2.2 compare the data definition language (DDL), and the data manipulation language (DML)",
+                    "11.4.2.3 describe the basic SQL queries for working with tables in a database: CREATE, ALTER and DROP",
+                    "11.4.2.4 describe the basic SQL queries for working with one table in a database: SELECT, UPDATE, INSERT and DELETE",
+                    "11.4.2.5 use SQL SELECT for data selection in more tables"
+                ]
+            }
+        },
+        "B": {
+            "heading": "Designing a new system",
+            "topics": {
+                "Data Flow Diagram": [
+                    "11.2.1.6 use data flow diagrams (DFD) to input, process, store and output data in computing systems"
+                ],
+                "Flowcharts of processes": [
+                    "11.2.1.7 use flow charts to input, process, store and output data in computing systems"
+                ],
+                "Prototyping": [
+                    "11.2.2.4 discuss the advantages and disadvantages of using prototypes when developing solutions",
+                    "11.2.2.5 discuss the use of prototypes based on a specific example",
+                    "11.2.2.6 develop a prototype for a new system"
+                ],
+                "Benefits and expectations of systems": [
+                    "11.2.2.1 analyze the advantages of new system",
+                    "11.2.2.2 analyze the restrictions of new system"
+                ],
+                "Development  environment": [
+                    "11.2.2.3 describe the characteristics of a development framework"
+                ],
+                "Technical spesification": [
+                    "11.2.2.7 define minimum requirements for hardware when implementing",
+                    "11.3.1.5 justify their choice of applied software and choice criteria based on the goals"
+                ]
+            }
+        }
+    },
+    {
+        "A": {
+            "heading": "Algorithms and Data structure",
+            "topics": {
+                "The structure of one-dimensional and two-dimensional arrays": [
+                    "11.5.2.1 determine data structure of a one-dimensional array",
+                    "11.5.2.2 determine data structure of a two-dimensional array",
+                    "11.5.2.3 apply basic algorithms (input, output, insert, delete) to one-dimensional arrays"
+                ],
+                "Search and sorting of Algorithm of": [
+                    "11.5.2.4 write a pseudo-code for sorting by insert and bubble",
+                    "11.5.2.5 write a pseudo-code of binary search for the solution of a specific problem"
+                ],
+                "Algorithm efficiency": [
+                    "11.5.2.6 understand the temporal efficiency of algorithms"
+                ]
+            }
+        },
+        "B": {
+            "heading": "Web programming",
+            "topics": {
+                "HTML markup language": [
+                    "11.5.3.1 create a site using basic HTML tags",
+                    "11.5.3.2 create forms for data entry using HTML tags"
+                ],
+                "CSS style sheet": [
+                    "11.5.3.3 use the CSS stylesheet when creating a site"
+                ],
+                "Script language": [
+                    "11.5.3.4 use  script language to connect a database",
+                    "11.5.3.5 use script language to work with databases"
+                ],
+                "Using scripts to create site content": [
+                    "11.5.3.6 use various algorithmic structures in script language",
+                    "11.5.3.7 use script language in site design",
+                    "11.5.3.8 use script language to provide interactivity"
+                ]
+            }
+        },
+        "C": {
+            "heading": "Mobile application development",
+            "topics": {
+                "Application interface": [
+                    "11.2.2.3 describe the characteristics of a development framework",
+                    "11.5.4.1 create a mobile application interface using the components of an application designer",
+                    "11.5.4.2 edit properties of components in a program code"
+                ],
+                "Mobile application development": [
+                    "11.5.4.3 create an application for mobile devices using conditional operators create an application for mobile devices using conditional operators",
+                    "11.5.4.4 create an application for mobile devices using loop structures",
+                    "11.5.4.5 use the technical capabilities of smartphones when developing"
+                ],
+                "Publishing mobile application": [
+                    "11.5.4.6 publish the results of a project on the network (application store)"
+                ]
+            }
+        }
+    },
+    {
+        "A": {
+            "heading": "System programming",
+            "topics": {
+                "Development of project": [
+                    "11.5.3.9 write a program code using a basic algorithmic \"following\" structure when developing a project",
+                    "11.5.3.10 write a program code using a basic algorithmic \"branching\" structure when developing a project",
+                    "11.5.3.11 write a program code using a basic algorithmic \"loop\" structure when developing a project"
+                ]
+            }
+        },
+        "B": {
+            "heading": "Information security",
+            "topics": {
+                "Security, privacy and data integrity": [
+                    "11.1.2.1 explain the difference between the terms security, privacy and data integrity"
+                ],
+                "Safety methods": [
+                    "11.1.2.2 provide arguments for the necessity of the protection of data and computer system",
+                    "11.1.2.3 describe data protection measures such as data backup and disk mirroring",
+                    "11.1.2.4 describe data protection measures such as encryption and access rights to data (authorisation)"
+                ],
+                "Validation and verification": [
+                    "11.1.2.5 explain the difference between the terms verification and validation"
+                ],
+                "Blockchain technology": [
+                    "11.1.2.6 explain the function and operation of Blockchain technologies"
+                ],
+                "Ethics and ownership": [
+                    "11.1.3.1 follow the copyright law when developing applications",
+                    "11.1.3.2 describe specifics of open source software",
+                    "11.1.3.3 describe specifics of closed source software restrict access to data made available through the Internet 11.1.3.4 using a variety of methods",
+                    "11.1.3.5 evaluate risks of using cloud technologies"
+                ]
+            }
+        },
+        "C": {
+            "heading": "Communication and network",
+            "topics": {
+                "Computer networks": [
+                    "11.6.1.1 compare features of local (LAN) and wide area networks (WAN)",
+                    "11.6.1.2 describe the advantages and disadvantages of network topologies bus, ring, star, mixed",
+                    "11.6.1.3 explain the purpose of network equipment"
+                ],
+                "Principles of Internet operation": [
+                    "11.6.2.1 describe the role of universal resource locator (URL)",
+                    "11.6.2.2 describe the purpose and organization of a domain name system (DNS)",
+                    "11.6.2.3 know the features of the client-server model"
+                ],
+                "Protocols": [
+                    "11.6.3.1 explain the role of protocols in the network (HTTP, FTP, POP3, SMTP, HTTPS, FTPS)",
+                    "11.6.3.2 analyze an IP address to determine the network identifier",
+                    "11.6.3.3 analyze an IP address to determine the host"
+                ]
+            }
+        }
+    }
+]
