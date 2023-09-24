@@ -1,18 +1,4 @@
-(
-    <div className="bg-primary text-white p-6 rounded-lg shadow-primary-100 shadow-sm">
-      <h2 className="text-2xl font-semibold mb-4">Virtual Memory:</h2>
-
-      <p className="mb-6">
-        Virtual memory is a memory management technique used by operating systems to provide an illusion of having more RAM than is actually available in a computer system.
-      </p>
-
-      <p>
-        In virtual memory, the operating system slices the data into pages with a fixed size and stores it on the disk. When the data is required, the operating system copies its pages and pastes them into RAM. However, this process can be relatively slow and may reduce the overall speed of the computer's operation.
-      </p>
-    </div>
-)
-
-import { Div, H2, H3, LO, List, P, Table, Title } from '@/components/Content'
+import { Div, H3, LO, List, P, Table, Title } from '@/components/Content'
 import useStore from '@/store'
 
 export default function Memory_types() {
@@ -68,6 +54,12 @@ export default function Memory_types() {
                 <H3>Virtual Memory:</H3>
                 <P>Virtual memory is a memory management technique used by operating systems to provide an illusion of having more RAM than is actually available in a computer system.</P>
                 <P>In virtual memory, the operating system slices the data into pages with a fixed size and stores it on the disk. When the data is required, the operating system copies its pages and pastes them into RAM. However, this process can be relatively slow and may reduce the overall speed of the computer's operation.</P>
+            </Div>
+            <LO>11.3.4.3 explain the purpose of cache memory</LO>
+            <Div>
+                <H3>Cache Memory:</H3>
+                <P>Cache memory is a small and fast memory that helps the computer work faster. It stores frequently used data so that the CPU can access it quickly.</P>
+                <P>Instead of going to the main memory every time, the CPU checks the cache first. Cache memory makes the computer run smoother by keeping important data close to the CPU.</P>
             </Div>
         </div>
     )

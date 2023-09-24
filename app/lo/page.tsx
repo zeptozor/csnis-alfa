@@ -11,38 +11,6 @@ export default function LO() {
         <Container />
         {/*
         {
-          lo == '11.3.4.2' &&
-          (
-            <div className="bg-primary text-white p-6 rounded-lg shadow-primary-100 shadow-sm">
-              <h2 className="text-2xl font-semibold mb-4">Virtual Memory:</h2>
-
-              <p className="mb-6">
-                Virtual memory is a memory management technique used by operating systems to provide an illusion of having more RAM than is actually available in a computer system.
-              </p>
-
-              <p>
-                In virtual memory, the operating system slices the data into pages with a fixed size and stores it on the disk. When the data is required, the operating system copies its pages and pastes them into RAM. However, this process can be relatively slow and may reduce the overall speed of the computer&apos;s operation.
-              </p>
-            </div>
-          )
-        }
-        {
-          lo == '11.3.4.3' &&
-          (
-            <div className=" text-white p-6 rounded-lg shadow-primary-100 shadow-sm">
-              <h2 className="text-2xl font-semibold mb-4">Cache Memory:</h2>
-        
-              <p className="mb-6">
-                Cache memory is a small and fast memory that helps the computer work faster. It stores frequently used data so that the CPU can access it quickly.
-              </p>
-        
-              <p>
-                Instead of going to the main memory every time, the CPU checks the cache first. Cache memory makes the computer run smoother by keeping important data close to the CPU.
-              </p>
-            </div>
-          )
-        }
-        {
           lo == '11.2.2.3' &&
           (
             <div className="text-white p-6 rounded-lg shadow-primary-100 shadow-sm">
