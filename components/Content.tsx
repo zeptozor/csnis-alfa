@@ -1,7 +1,6 @@
-import { Children } from 'react'
-import Software_categories from '@/api/content/Software_categories'
+import React, { Children, ReactElement } from 'react'
 import useStore from '@/store'
-import { usePathname } from 'next/navigation'
+import topics from '@/api/content'
 
 function ReplaceApos(children: React.ReactNode) {
     if (typeof children == 'string') {
@@ -68,8 +67,8 @@ export function P({ children }: { children: React.ReactNode }) {
 
 export function List({ children }: { children: React.ReactNode }) {
     const items: React.ReactNode[] = []
-    Children.forEach(children, (child, index) => {
-        items.push(ReplaceApos(child))
+    Children.forEach(children, (item, index) => {
+        items.push(ReplaceApos(item))
     })
     return (
         <ul className='list-disc pl-8'>
@@ -82,10 +81,51 @@ export function List({ children }: { children: React.ReactNode }) {
     )
 }
 
+export function Table({ children }: { children: React.ReactNode }) {
+    const headings: React.ReactNode[] = []
+    const rows: React.ReactNode[] = []
+
+    Children.forEach(children, (row: React.ReactNode, index) => {
+        if (index == 0)
+            headings.push(...(row as ReactElement).props.children)
+        else
+            rows.push((row as ReactElement).props.children)
+    })
+    return (
+        <table className='w-full'>
+            <thead>
+                <tr className='bg-primary-100'>
+                    {
+                        headings.map((h, index) => <th className='py-2 px-4' key={index}>{h}</th>)
+                    }
+                </tr>
+            </thead>
+            <tbody>
+                    {
+                        rows.map((row, index) => (
+                            <tr key={index} className={`${ index % 2 == 1 ? 'bg-primary-100' : '' }`}>
+                                {
+                                    (row as React.ReactNode[]).map((i, index) => (
+                                        <th className='py-2 px-4' key={index}>{i}</th>
+                                    ))
+                                }
+                            </tr>
+                        ))
+                    }
+            </tbody>
+        </table>
+    )
+}
+
 export function Container() {
+    const topic = useStore.accordion(state => state.topic)
     return (
         <div className='bg-main-100 p-6 rounded-lg shadow-primary-100 shadow-sm'>
-            <Software_categories />
+            {
+                topics[(topic as string)]
+                    ? React.cloneElement(topics[(topic as string)], {})
+                    : 'No'
+            }
         </div>
     )
 }

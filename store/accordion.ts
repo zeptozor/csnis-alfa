@@ -60,6 +60,7 @@ const useAccordionStore = create<AccordionStoreStates>()(((set, get: () => Accor
         topicRef: createRef<HTMLDivElement>() as React.MutableRefObject<HTMLDivElement>,
         scrollTo: (id) => {
             const topicNode = get().topicRef.current
+            if (!topicNode) return
             let LONode: any
             let initialized = false
             topicNode.querySelectorAll('.scroll').forEach((value) => {

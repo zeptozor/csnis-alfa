@@ -1,8 +1,6 @@
 import getLearningObjectives from '@/api/learningObjectivesApi'
 import useStore from '@/store'
-import { AccordionLO } from '@/store/accordion'
 import { usePathname } from 'next/navigation'
-import { JsxElement } from 'typescript'
 
 const eleven = getLearningObjectives(require('@/api/eleven.json'))
 const twelve = getLearningObjectives(require('@/api/twelve.json'))
