@@ -50,7 +50,7 @@ export function H2({ children }: { children: React.ReactNode }) {
 export function H3({ children }: { children: React.ReactNode }) {
     children = ReplaceApos(children)
     return (
-        <h2 className='text-xl font-semibold mb-2'>
+        <h2 className='text-xl font-semibold mb-2 mt-1'>
             {children}
         </h2>
     )
@@ -114,6 +114,12 @@ export function Table({ children }: { children: React.ReactNode }) {
                     }
             </tbody>
         </table>
+    )
+}
+
+export function Image({ name }: { name: string }) {
+    return (
+        <img src={`images/${name}`} />
     )
 }
 
