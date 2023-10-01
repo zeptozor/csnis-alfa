@@ -1,6 +1,7 @@
 import React, { Children, ReactElement } from 'react'
 import useStore from '@/store'
 import topics from '@/api/content'
+import Image from 'next/image'
 
 function ReplaceApos(children: React.ReactNode) {
     if (typeof children == 'string') {
@@ -117,9 +118,9 @@ export function Table({ children }: { children: React.ReactNode }) {
     )
 }
 
-export function Image({ name }: { name: string }) {
+export function Img({ name }: { name: string }) {
     return (
-        <img src={`images/${name}`} />
+        <Image src={`images/${name}`} alt='' />
     )
 }
 
