@@ -1,4 +1,4 @@
-import { Div, H3, Image, LO, List, P, Table, Title } from '@/components/Content'
+import { Div, H3, Img, LO, List, P, Table, Title } from '@/components/Content'
 import useStore from '@/store'
 
 export default function Search_and_sorting_of_Algorithm() {
@@ -15,7 +15,7 @@ export default function Search_and_sorting_of_Algorithm() {
             </Div>
             <Div>
                 <H3>Bubble sort:</H3>
-                <Image name='bubblesort.jpg' />
+                <Img name='bubblesort.jpg' />
                 <H3>Pseudocode:</H3>
                 <P>N = Array.Size</P>
                 <P>for i = 0 to N-2</P>
@@ -31,7 +31,7 @@ export default function Search_and_sorting_of_Algorithm() {
             <Div>
                 <H3>Insertion sort:</H3>
                 <P>A simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part.</P>
-                <Image name='insertionsort.jpg' />
+                <Img name='insertionsort.jpg' />
                 <H3>Pseudocode:</H3>
                 <P>N = Array.Size</P>
                 <P>for j = 1 to N - 1</P>

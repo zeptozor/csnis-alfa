@@ -120,7 +120,7 @@ export function Table({ children }: { children: React.ReactNode }) {
 
 export function Img({ name }: { name: string }) {
     return (
-        <Image src={`images/${name}`} alt='' />
+        <Image src={`/images/${name}`} alt='' width={300} height={200} />
     )
 }
 
