@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  color: var(--text);
+}
+
+body {
+  background-color: var(--main-100);
+}
+
+:root {
+  --main-100: #1a1c25;
+  --main-200: #2f3139;
+  --main-300: #46474f;
+
+  --text: #ffffff;
+  
+  --onsurface: #909196;
+
+  --primary-100: #3b82f6;
+  --primary-200: #5986f8;
+}
+
+body[data-theme="light"] {
+  --main-100: #f3f4f6;
+  --main-200: #ffffff;
+  --main-300: #f9fafb;
+
+  --text: #000000;
+}
