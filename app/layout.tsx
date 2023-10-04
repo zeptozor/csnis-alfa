@@ -29,7 +29,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <title>CS NIS</title>
         <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'></link>
-        <link href='./v.png' rel='shortcut icon' type='image/x-icon'></link>
+        <link href='./images/logo.jpg' rel='shortcut icon' type='image/x-icon'></link>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </head>
       <body>
