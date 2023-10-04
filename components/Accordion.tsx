@@ -78,7 +78,7 @@ export default function Accordion({ className = '' }: { className?: string }) {
                     ))
                 }
             </AccordionItem>
-            <AccordionItem id='12' level={0} heading='Grade 12' open={grade == '12'} active={activeGrade == '12'} onClick={setGrade}>
+{/*             <AccordionItem id='12' level={0} heading='Grade 12' open={grade == '12'} active={activeGrade == '12'} onClick={setGrade}>
                 {
                     twelve.map(IUnit => (
                         <AccordionItem key={IUnit.key} id={IUnit.key} level={1} heading={IUnit.heading} open={unit == IUnit.key} active={activeUnit == IUnit.key} onClick={setUnit}>
@@ -96,7 +96,7 @@ export default function Accordion({ className = '' }: { className?: string }) {
                         </AccordionItem>
                     ))
                 }
-            </AccordionItem>
+            </AccordionItem> */}
         </div>
     )
 }
