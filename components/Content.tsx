@@ -4,9 +4,9 @@ import topics from '@/api/content'
 import Image from 'next/image'
 
 function ReplaceApos(children: React.ReactNode) {
-    if (typeof children == 'string') {
-        children = children.replace('\'', '&apos;')
-    }
+    // if (typeof children == 'string') {
+    //     children = children.replace('\'', '&apos;')
+    // }
     return children
 }
 
