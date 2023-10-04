@@ -131,7 +131,7 @@ export function Container() {
             {
                 topics[(topic as string)]
                     ? React.cloneElement(topics[(topic as string)], {})
-                    : 'No'
+                    : 'Choose the topic'
             }
         </div>
     )
